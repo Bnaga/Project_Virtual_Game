@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGameMenu : MonoBehaviour {
+public class StartGameMenu : MonoBehaviour
+{
 
     public void StartGame()
     {
