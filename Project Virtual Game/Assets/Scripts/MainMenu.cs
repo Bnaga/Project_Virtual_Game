@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        Destroy(GameObject.Find("GameController"));
+    }
 
     public void StartGame()
     {
