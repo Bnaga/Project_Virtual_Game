@@ -12,7 +12,6 @@ public class GameControllerScript : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        DontDestroyOnLoad(this);
         score = 0;
         PlayerPrefs.SetInt("HighScore", 0);
     }

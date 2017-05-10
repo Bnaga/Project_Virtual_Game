@@ -13,7 +13,7 @@ public class ScorePrinter : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
         score = 0;
         PlayerPrefs.SetInt("HighScore", 0);
         UpdateScore();

@@ -7,15 +7,16 @@ public class StartMenu : MonoBehaviour
 {
     private void Start()
     {
-        Destroy(GameObject.Find("GameController"));
+        //Destroy(GameObject.Find("GameController"));
     }
+
 
     public void StartGame()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void Credits()
+    public void Leaderboard()
     {
         //SceneManager.LoadScene(3);
     }

@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
         {
             pauseMenuCanvas.SetActive(true);
             Time.timeScale = 0f;
-            timescript.SaveTime();
+            Cursor.visible = true;
         }
         else
         {
