@@ -9,7 +9,7 @@ public class MovingTarget : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.Translate (Vector3.left * speed * direction * Time.deltaTime);
+		transform.Translate (Vector3.right * speed * direction * Time.deltaTime);
 	}
 
 	void OnTriggerEnter(Collider col){
