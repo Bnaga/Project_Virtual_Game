@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Project Virtual Game/Assets/Custom Animation.meta
 guid: 6532d49e3f4493e4eab37e26ac7a8e06
 folderAsset: yes
 timeCreated: 1493813119
+=======
+guid: 6abaf831ce3fb15458763acb3101372c
+folderAsset: yes
+timeCreated: 1493841883
+>>>>>>> a3cb0dda467f23af0121ffade75d7a217a11cdc5:Project Virtual Game/Assets/Standard Assets.meta
 licenseType: Free
 DefaultImporter:
   userData: 
