@@ -10,6 +10,11 @@ public class StartMenuScript : MonoBehaviour {
         SceneManager.LoadScene(1);
     }
 
+    public void Leaderboard()
+    {
+        //SceneManager.LoadScene(3);
+    }
+
     public void ExitGame()
     {
         Application.Quit();
