@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 public class StartGameMenu : MonoBehaviour
 {
 
-    public void StartGame()
+    public void Level1()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
+    }
+
+    public void Level2()
+    {
+        SceneManager.LoadScene(5);
     }
 
     public void Back()
