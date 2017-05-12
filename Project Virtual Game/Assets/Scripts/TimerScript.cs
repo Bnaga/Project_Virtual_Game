@@ -41,15 +41,11 @@ public class TimerScript : MonoBehaviour
             Debug.Log(clockIsStopped);
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 0 )
-        {
-            Destroy(GameObject.Find("HUD"));
-        }
+
     }
 
     void TimeToPoints()
     {
         totalPoints = beginPoints - (int)(100 * timeRun);
-        //totalPoints = (int)(beginPoints / timeRun);
     }
 }

@@ -30,13 +30,27 @@ public class boardlvl1 : MonoBehaviour {
 
     private void Start()
     {
-        leaderBoard.SetUpScores(0);
+        if(SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            leaderBoard.SetUpScores(0);
 
-        finalGameScore = PlayerPrefs.GetInt("Finalscore");
+            finalGameScore = PlayerPrefs.GetInt("Finalscore");
 
-        newHighScore = leaderBoard.DidGetHighScore(finalGameScore);
+            newHighScore = leaderBoard.DidGetHighScore(finalGameScore);
 
-        UpdateUIText();
+            UpdateUIText();
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            leaderBoard.SetUpScores(1);
+
+            finalGameScore = PlayerPrefs.GetInt("Finalscore");
+
+            newHighScore = leaderBoard.DidGetHighScore(finalGameScore);
+
+            UpdateUIText();
+        }
     }
 
     public void Update()
