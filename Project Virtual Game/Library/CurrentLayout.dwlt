@@ -416,7 +416,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: c2a1feff5eb2feff9c51ffff4861ffffe4fbffff00000000
+    m_ExpandedIDs: e4fbffff000000005a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,14 +466,14 @@ MonoBehaviour:
     width: 697
     height: 373
   m_SceneLighting: 1
-  lastFramingTime: 20178.633449904843
+  lastFramingTime: 445.96807251197987
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -46.971676, y: 4.6377945, z: -149.72794}
+    m_Target: {x: -114.05607, y: -36.985912, z: -163.00241}
     speed: 2
-    m_Value: {x: -46.971676, y: 4.6377945, z: -149.72794}
+    m_Value: {x: -114.05607, y: -36.985912, z: -163.00241}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -496,13 +496,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.082938254, y: -0.34566545, z: -0.030571155, w: 0.9343021}
+    m_Target: {x: 0.12828824, y: -0.70722985, z: 0.1332325, w: 0.6825669}
     speed: 2
-    m_Value: {x: -0.0829292, y: -0.34562773, z: -0.030567817, w: 0.9342001}
+    m_Value: {x: 0.12827025, y: -0.70713073, z: 0.13321383, w: 0.6824712}
   m_Size:
-    m_Target: 107.461685
+    m_Target: 207.76007
     speed: 2
-    m_Value: 107.461685
+    m_Value: 207.76007
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -576,34 +576,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Obstacles/CrumbledObstacle/Assets
+    - Assets/Obstacles/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/Obstacles/CrumbledObstacle/Assets
+  - Assets/Obstacles/Prefabs
   m_LastFoldersGridSize: 72
   m_LastProjectPath: C:\Users\1506\Documents\Project_Virtual_Game\Project Virtual
     Game
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 125}
-    m_SelectedIDs: fe5b0000
-    m_LastClickedID: 23550
-    m_ExpandedIDs: 00000000222500005825000082250000362600004c2600005026000060260000c8260000e026000080270000ce270000122a0000b23c0000c84c0000005c000000ca9a3bffffff7f
+    m_SelectedIDs: 4c250000
+    m_LastClickedID: 9548
+    m_ExpandedIDs: 000000002225000056250000602500004e2600005c2600006c2600007026000080260000a8260000f026000008270000ac270000f8270000fe270000e22a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Materials
-      m_OriginalName: Materials
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 9896
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -617,7 +617,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000222500005825000082250000e82500004c26000050260000c8260000e026000080270000ce270000
+    m_ExpandedIDs: 000000002225000056250000602500004e2600005c2600006c2600007026000080260000a8260000f026000008270000ac270000f8270000fe270000e22a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
