@@ -6,18 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    void Awake()
-    {
-
-    }
 
     private float timeRun;
     public bool clockIsPaused = false;
     public bool clockIsStopped = false;
     public Text timeText;
+
+    public Text scoreText;
     int beginPoints = 10000;
     public int totalPoints;
     public GameControllerScript controllerScript;
+    public int totPoints;
     // Update is called once per frame
 
     void Start()
@@ -46,6 +45,11 @@ public class TimerScript : MonoBehaviour
 
     void TimeToPoints()
     {
-        totalPoints = beginPoints - (int)(100 * timeRun);
+        totPoints = beginPoints - (int)(100 * timeRun);
+        if((totPoints%10) == 0)
+        {
+            totalPoints = totPoints;
+        }
+        scoreText.text = totalPoints.ToString();
     }
 }

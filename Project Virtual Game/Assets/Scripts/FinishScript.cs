@@ -7,12 +7,14 @@ public class FinishScript : MonoBehaviour {
 
 
     public TimerScript timeScript;
+    public GameControllerScript gamescript;
     // Use this for initialization
     public int gamePoints = 0;
 	void Start ()
     {
         GameObject controller = GameObject.Find("GameController");
         timeScript = controller.GetComponent<TimerScript>();
+        gamescript = controller.GetComponent<GameControllerScript>();
     }
 	
 	// Update is called once per frame

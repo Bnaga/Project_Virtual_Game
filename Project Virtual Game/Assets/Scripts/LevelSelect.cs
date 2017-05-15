@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGameMenu : MonoBehaviour
+public class LevelSelect : MonoBehaviour
 {
-
     public void Level1()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(3);
     }
 
     public void Level2()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(4);
     }
 
     public void Back()
@@ -21,3 +20,4 @@ public class StartGameMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 }
+

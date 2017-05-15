@@ -7,12 +7,12 @@ public class StartMenuScript : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void Leaderboard()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void ExitGame()
