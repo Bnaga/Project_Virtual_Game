@@ -25,12 +25,12 @@ public class boardlvl1 : MonoBehaviour {
     /// </summary>
     public void Back()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     private void Start()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 4)
+        if(SceneManager.GetActiveScene().buildIndex == 5)
         {
             leaderBoard.SetUpScores(0);
 
@@ -41,7 +41,7 @@ public class boardlvl1 : MonoBehaviour {
             UpdateUIText();
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 5)
+        if (SceneManager.GetActiveScene().buildIndex == 6)
         {
             leaderBoard.SetUpScores(1);
 
