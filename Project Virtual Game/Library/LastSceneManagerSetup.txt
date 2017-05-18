@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Leaderboardfin2.unity
+- path: Assets/Scenes/TestCourse2.unity
   isLoaded: 1
   isActive: 1
