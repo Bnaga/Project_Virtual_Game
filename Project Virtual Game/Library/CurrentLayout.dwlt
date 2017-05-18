@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -324,19 +324,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Bayan\OneDrive\Documenten\Virtual\Project Virtual Game
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 14280000
-    m_LastClickedID: 10260
-    m_ExpandedIDs: 00000000d8260000182700004627000074280000f62a0000682d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 300}
+    m_SelectedIDs: 30260000
+    m_LastClickedID: 9776
+    m_ExpandedIDs: 0000000088250000c8250000d6250000fe2500003426000030270000342700004a27000026280000e42900005a2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d826000018270000682d0000
+    m_ExpandedIDs: 0000000088250000c8250000fe25000030270000e42900005a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -408,7 +408,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -480,9 +480,9 @@ MonoBehaviour:
     height: 624
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a82a0000
+    m_SelectedIDs: 6ccdfeff
     m_LastClickedID: 0
-    m_ExpandedIDs: a666ffffb072ffff9c7cffff429dffffe69effff10b2ffff44e1ffffdceaffffdeeaffff2af1ffff80f5ffff34f7ffff00000000be420000c842000022530000d8560000
+    m_ExpandedIDs: 82a0ffffccf1ffffcefbffff00000000062b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,14 +532,14 @@ MonoBehaviour:
     width: 1148
     height: 624
   m_SceneLighting: 1
-  lastFramingTime: 1848.4200743003146
-  m_2DMode: 1
+  lastFramingTime: 67.3285782088406
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 646.265, y: 338.8647, z: 0}
+    m_Target: {x: -452.77042, y: -192.16742, z: -244.45143}
     speed: 2
-    m_Value: {x: 646.265, y: 338.8647, z: 0}
+    m_Value: {x: -452.77042, y: -192.16742, z: -244.45143}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -554,26 +554,26 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.011904019, y: -0.9801673, z: 0.18780446, w: -0.062128033}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.011904019, y: -0.9801673, z: 0.18780446, w: -0.062128033}
   m_Size:
-    m_Target: 713.4891
+    m_Target: 6.593147
     speed: 2
-    m_Value: 713.4891
+    m_Value: 6.593147
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
-  m_LastSceneViewRotation: {x: -0.5297395, y: 0.058926016, z: -0.03692807, w: -0.8453047}
+    m_Value: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0dea7872a193e8e4a954bc15f39bbcb6
+timeCreated: 1494857228
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bulletEmitter: {fileID: 1612323905628864, guid: a87c3cdfa593447448032af62a7767e0,
+      type: 2}
+  - paintBall: {fileID: 1900705340480630, guid: 3014250f58de242458383dda6002dee9,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
